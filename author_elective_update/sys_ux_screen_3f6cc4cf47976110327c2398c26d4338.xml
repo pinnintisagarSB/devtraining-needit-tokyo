@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings/>
+        <macroponent/>
+        <macroponent_config>{ }</macroponent_config>
+        <name>Home default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type/>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 10:05:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f6cc4cf47976110327c2398c26d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_3f6cc4cf47976110327c2398c26d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 10:05:33</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=3f6cc4cf47976110327c2398c26d4338"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1821d704db31615c4d2bac44d4961917</instance_id>
+        <instance_name>dev166710</instance_name>
+        <name>sys_ux_screen_3f6cc4cf47976110327c2398c26d4338</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config/><description/><event_mappings/><macroponent/><macroponent_config>{ }</macroponent_config><name>Home default</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type/><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-12 10:05:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f6cc4cf47976110327c2398c26d4338</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Home default</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_screen_3f6cc4cf47976110327c2398c26d4338</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-12 10:05:33</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=3f6cc4cf47976110327c2398c26d4338"/></record_update>]]></payload>
+        <payload_hash>-9978195</payload_hash>
+        <record_name>Home default</record_name>
+        <reverted_from/>
+        <source>5cb8366047b22110327c2398c26d43db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 10:53:59</sys_created_on>
+        <sys_id>e187108b47d76110327c2398c26d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188af3dc0c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 10:53:59</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>776cc4cfc29761104078805af0922b3a</update_guid>
+        <update_guid_history>776cc4cfc29761104078805af0922b3a:-931573858,776cc4cfc29761104078805af0922b3a:-931573858,776cc4cfc29761104078805af0922b3a:-931573858,776cc4cfc29761104078805af0922b3a:-931573858</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 10:53:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>52bac33b461440279bc098210ceabd99</sys_id>
+        <sys_metadata>3f6cc4cf47976110327c2398c26d4338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_screen_3f6cc4cf47976110327c2398c26d4338</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_3f6cc4cf47976110327c2398c26d4338">e187108b47d76110327c2398c26d43fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 10:53:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

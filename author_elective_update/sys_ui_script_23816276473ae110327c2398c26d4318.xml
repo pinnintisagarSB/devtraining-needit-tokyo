@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_58872_needit.todo list script</name>
+        <script><![CDATA[function onLoad() {
+  // Load the UI Page
+  var uiPage = new GlideappUiPage('todo_list_ui_page');
+  uiPage.setPageID(current.sys_id);
+  uiPage.setTitle('Todo List');
+  uiPage.setPageClass('container');
+  uiPage.setPageWidth(800);
+  uiPage.addControl('JSInclude', 'jQuery');
+  uiPage.render();
+}
+
+onLoad();
+]]></script>
+        <script_name>todo list script</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-18 05:48:36</sys_created_on>
+        <sys_id>23816276473ae110327c2398c26d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.todo list script</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_script_23816276473ae110327c2398c26d4318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-18 05:48:36</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1821d704db31615c4d2bac44d4961917</instance_id>
+        <instance_name>dev166710</instance_name>
+        <name>sys_ui_script_23816276473ae110327c2398c26d4318</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_58872_needit.todo list script&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+  // Load the UI Page
+  var uiPage = new GlideappUiPage('todo_list_ui_page');
+  uiPage.setPageID(current.sys_id);
+  uiPage.setTitle('Todo List');
+  uiPage.setPageClass('container');
+  uiPage.setPageWidth(800);
+  uiPage.addControl('JSInclude', 'jQuery');
+  uiPage.render();
+}
+
+onLoad();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;todo list script&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-18 05:48:36&lt;/sys_created_on&gt;&lt;sys_id&gt;23816276473ae110327c2398c26d4318&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_58872_needit.todo list script&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_23816276473ae110327c2398c26d4318&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-18 05:48:36&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-585809133</payload_hash>
+        <record_name>x_58872_needit.todo list script</record_name>
+        <reverted_from/>
+        <source>5cb8366047b22110327c2398c26d43db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-18 05:48:37</sys_created_on>
+        <sys_id>98e1a636473ae110327c2398c26d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1882d672f060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-18 05:48:37</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>d0e1a636833ae110598d24610956d98d</update_guid>
+        <update_guid_history>d0e1a636833ae110598d24610956d98d:-585809133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-12 10:53:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>20fcc305edb44bab8632a1c5318ed6d9</sys_id>
+        <sys_metadata>23816276473ae110327c2398c26d4318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.todo list script</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ui_script_23816276473ae110327c2398c26d4318</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_23816276473ae110327c2398c26d4318">98e1a636473ae110327c2398c26d438d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-12 10:53:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
